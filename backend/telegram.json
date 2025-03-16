@@ -1,0 +1,31 @@
+{
+    "messages": [
+        {
+            "sender": "Amma",
+            "sender_id": 6589552376,
+            "message": "Hello sir",
+            "priority": "Low Priority",
+            "thread_summary": "Could not summarize the conversation.",
+            "suggested_response": "Hi, thanks for your message!",
+            "timestamp": "2025-02-26 09:56:00"
+        },
+        {
+            "sender": "Amma",
+            "sender_id": 6589552376,
+            "message": "Hllo madam",
+            "priority": "Low Priority",
+            "thread_summary": "Could not summarize the conversation.",
+            "suggested_response": "Hi, thanks for your message!",
+            "timestamp": "2025-02-26 09:58:06"
+        },
+        {
+            "sender": "Amma",
+            "sender_id": 6589552376,
+            "message": "Hello madam",
+            "priority": "Low Priority",
+            "thread_summary": "A user mistakenly addressed someone as \"madam\" before the other person clarified their preferred title as \"sir.\"",
+            "suggested_response": "Hello.",
+            "timestamp": "2025-02-26 09:59:14"
+        }
+    ]
+}

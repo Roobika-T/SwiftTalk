@@ -1,0 +1,70 @@
+{
+    "conversations": [
+        {
+            "status": "success",
+            "messages": [
+                {
+                    "contact_name": "Amma Airtel",
+                    "phone_number": "+91 63692 02355",
+                    "message": "How are you",
+                    "thread": [
+                        "Hi",
+                        "Hi",
+                        "Hi",
+                        "Hi",
+                        "How are you"
+                    ],
+                    "priority": "Low Priority",
+                    "thread_summary": "After a series of greetings, one person asked another how they were doing.",
+                    "suggested_response": "I'm good, thanks. You?  (or just \"Good, you?\")",
+                    "response_sent": "I'm good, thanks. You?  (or just \"Good, you?\")",
+                    "timestamp": "2025-02-26 09:49:18"
+                }
+            ]
+        },
+        {
+            "status": "success",
+            "messages": [
+                {
+                    "contact_name": "Amma Airtel",
+                    "phone_number": "+91 63692 02355",
+                    "message": "How are you",
+                    "thread": [
+                        "Hi",
+                        "Hi",
+                        "Hi",
+                        "Hi",
+                        "How are you"
+                    ],
+                    "priority": "Low Priority",
+                    "thread_summary": "After a series of greetings, someone inquired how the other person was doing.",
+                    "suggested_response": "I'm good, thanks.  What's up?",
+                    "response_sent": "I'm good, thanks.  What's up?",
+                    "timestamp": "2025-02-26 11:22:07"
+                }
+            ]
+        },
+        {
+            "status": "success",
+            "messages": [
+                {
+                    "contact_name": "Amma Airtel",
+                    "phone_number": "+91 63692 02355",
+                    "message": "Hi",
+                    "thread": [
+                        "Hi",
+                        "Hi",
+                        "Hi",
+                        "How are you",
+                        "Hi"
+                    ],
+                    "priority": "Low Priority",
+                    "thread_summary": "Several greetings were exchanged, followed by one person asking \"How are you?\".",
+                    "suggested_response": "Hey!  Anything I can help with?",
+                    "response_sent": "Hey!  Anything I can help with?",
+                    "timestamp": "2025-02-26 11:31:31"
+                }
+            ]
+        }
+    ]
+}

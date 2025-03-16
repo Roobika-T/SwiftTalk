@@ -1,0 +1,21 @@
+[
+  {
+    "status": "success",
+    "message": {
+      "sender": "roobikatura@gmail.com",
+      "subject": "Introduction",
+      "body": "Hi this is roobika\r\n",
+      "original_body": "Hi this is roobika\r\n",
+      "priority": "Low Priority",
+      "thread_summary": "No thread summary yet.",
+      "suggested_responses": [
+        "Thank you for your email.",
+        "I'll get back to you soon.",
+        "Processing your request."
+      ],
+      "response_sent": "Thank you for your email. This is an automated response - I'll reply with more details soon.",
+      "timestamp": "2025-02-26 11:21:07",
+      "received_at": "Wed, 26 Feb 2025 11:20:46 +0530"
+    }
+  }
+]
