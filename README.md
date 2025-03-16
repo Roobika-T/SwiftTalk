@@ -1,26 +1,27 @@
-Personal AI Communication Assistant
-The Personal AI Communication Assistant was developed to help professionals manage multiple communication platforms, including Gmail, Slack, WhatsApp, and Telegram. The assistant is designed to streamline communication workflows, enabling users to prioritize, summarize, and respond efficiently across these platforms. The application was built using Next.js for the frontend and Flask for the backend.
-1. Smart Email Management (Gmail)
-● PrioritizeIncomingEmails:UtilizedBERTforcategorizingemailsinto Urgent, Follow-up, and Low Priority based on content. This feature helps users quickly identify which emails require immediate attention.
-● SummarizeLongEmailThreads:ImplementedBARTtogenerate concise summaries of lengthy email threads, allowing users to grasp essential information without reading through extensive conversations.
-● SuggestQuickResponses:EmployedHuggingFaceDistil-GPTfor context-aware reply suggestions, enabling users to respond promptly and appropriately to emails.
-● Track&Remind:Integratedaremindersystemtoflagimportant unanswered emails, ensuring that critical communications are not overlooked.
-2. Team Communication Optimization (Slack)
- ● SummarizeKeyConversations:UsedBARTtoextractimportant updates from multiple channels, providing users with a clear overview of relevant discussions.
-● GenerateDailyDigests:Implementedadailysummaryofkey discussions using BERT, helping teams stay informed about ongoing projects and decisions.
-● ConvertMessagestoTasks:AppliedSVMtoidentifyactionable messages and suggest task creation, enhancing productivity by streamlining task management.
-● SmartSearch&Retrieval:UtilizedTF-IDFandBM25forefficient lookup of past messages, allowing users to quickly find relevant information.
-3. WhatsApp Assistant for Personal & Business Chats
-● AutomateRoutineResponses:LeveragedGeminiforgenerating smart replies to common queries, improving response times for frequently asked questions.
-● SummarizeLongChats:UsedBARTtoprovidequickoverviewsof lengthy conversations, ensuring users can easily catch up on important discussions.
-● SetUpFollow-ups&Reminders:Integratedaremindersystemfor pending messages, helping users manage their communications effectively.
-● HandleBasicCustomerServiceQueries:EmployedNaiveBayesfor classifying and responding to common questions, enhancing customer service efficiency.
-4. Telegram Integration
-● AutomateRoutineResponses:UtilizedHuggingFaceforgenerating smart replies in Telegram chats, improving user engagement and response efficiency.
+                                Personal AI Communication Assistant
 
-● SummarizeLongConversations:ImplementedBARTforquick overviews of discussions, allowing users to stay informed without sifting through extensive chat histories.
-● PrioritizeMessages:CategorizedmessagesasHigh,Medium,and Low priority, helping users manage their communications based on urgency.
+The Personal AI Communication Assistant was developed to help professionals manage multiple communication platforms, including Gmail, Slack, WhatsApp, and Telegram. The assistant streamlines communication workflows, enabling users to prioritize, summarize, and respond efficiently across these platforms. The application was built using Next.js (frontend) and Flask (backend).
+
+1. Smart Email Management (Gmail)
+Prioritize Incoming Emails: Utilized BERT to categorize emails into Urgent, Follow-up, and Low Priority based on content, helping users quickly identify important emails.
+Summarize Long Email Threads: Implemented BART to generate concise summaries of lengthy email threads, allowing users to grasp key details without reading full conversations.
+Suggest Quick Responses: Employed Hugging Face Distil-GPT to provide context-aware reply suggestions, enabling users to respond promptly.
+Track & Remind: Integrated a reminder system to flag important unanswered emails, ensuring critical communications are not overlooked.
+2. Team Communication Optimization (Slack)
+Summarize Key Conversations: Used BART to extract important updates from multiple channels, providing users with a clear overview of relevant discussions.
+Generate Daily Digests: Implemented a daily summary of key discussions using BERT, keeping teams informed on ongoing projects and decisions.
+Convert Messages to Tasks: Applied SVM to identify actionable messages and suggest task creation, streamlining productivity.
+Smart Search & Retrieval: Utilized TF-IDF and BM25 for quick lookup of past messages, enabling users to efficiently find relevant information.
+3. WhatsApp Assistant for Personal & Business Chats
+Automate Routine Responses: Leveraged Gemini to generate smart replies to frequently asked questions, improving response efficiency.
+Summarize Long Chats: Used BART to provide quick overviews of lengthy conversations, allowing users to easily catch up on important discussions.
+Set Up Follow-ups & Reminders: Integrated a reminder system for pending messages, helping users manage communication effectively.
+Handle Basic Customer Service Queries: Employed Naïve Bayes to classify and respond to common customer inquiries, enhancing customer service efficiency.
+4. Telegram Integration
+Automate Routine Responses: Utilized Hugging Face models to generate smart replies in Telegram chats, improving engagement and response efficiency.
+Summarize Long Conversations: Implemented BART for quick overviews of discussions, ensuring users stay informed without sifting through long chat histories.
+Prioritize Messages: Categorized messages into High, Medium, and Low priority, allowing users to manage communications effectively.
 Findings
-● UnderstandingAppPasswords:Learnedtheimportanceofusingapp passwords for secure access to Gmail, enhancing security when integrating with third-party applications.
-● ModelSelection:Discoveredthatdifferentmachinelearningmodels (BERT, BART, SVM) have unique strengths, with BART being particularly effective for summarization tasks.
-● Cross-PlatformIntegration:Learnedthatseamlessintegrationacross multiple platforms (Gmail, Slack, WhatsApp, Telegram) enhances user experience and efficiency in managing communications.
+Understanding App Passwords: Learned the importance of using app passwords for secure Gmail access when integrating with third-party applications.
+Model Selection: Found that different ML models (BERT, BART, SVM) have unique strengths, with BART being particularly effective for summarization tasks.
+Cross-Platform Integration: Discovered that seamless integration across multiple platforms (Gmail, Slack, WhatsApp, Telegram) enhances user experience and improves communication efficiency.
